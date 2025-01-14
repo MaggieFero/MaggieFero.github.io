@@ -5,7 +5,7 @@ export default {
 	description: "I am building a website and I haven't decided what will be on it yet.",
 	author: {
 		name: "Margaret Fero",
-		email: "youremailaddress@example.com",
+		email: "pleaseDoNotEmail@example.com",
 		url: "https://maggiefero.github.io/"
 	}
 }
