@@ -1,25 +1,7 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2018-05-01
-tags: another tag
+title: Hello, World!
+description: This is my first post.
+date: 2024-01-13
+tags: getting started, meta
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-## Section Header
-
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-```diff-js
- // this is a command
- function myCommand() {
-+  let counter = 0;
--  let counter = 1;
-   counter++;
- }
-
- // Test with a line break above this line.
- console.log('Test');
-```
+This is my first post on my first 11ty site. I was pretty confused going through the tutorial from the official documentation, but @phildini pointed me to the *immensely* helpful repo [11ty/eleventy-base-blog](https://github.com/11ty/eleventy-base-blog/), which got me back on track. Overall, I expect this site to contain a few things: my bio, this blog, videos and possibly summaries of some or all of my talks, and possibly if I really get my act together even my LinkTree as a subpage. Who knows what the future may hold!
