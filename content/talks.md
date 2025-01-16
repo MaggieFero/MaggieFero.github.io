@@ -13,7 +13,7 @@ I've sorted the talks by year for convenience, especially because some talks exi
 I still have plenty of availability if you'd like me to speak at your event this year! 
 
 ### January 9 Techtonica Workshop: Goal Setting for the New Year
-[Event Listing](https://www.eventbrite.com/e/workshop-goal-setting-for-the-new-year-tickets-1115380496089]
+[Event Listing](https://www.eventbrite.com/e/workshop-goal-setting-for-the-new-year-tickets-1115380496089)
 
 This one doesn't have a public recording or slides currently, because they may make the video available by request in the future as a fundraiser.
 
@@ -22,7 +22,7 @@ In 2024, I gave two very different talks, one of which is an updated version of 
 
 ### ToorCamp: Humans Love Making Little Books For Our Friends
 Throughout history, humans have loved making little books for our friends. These books have gone by many names, including zines, bibelots, pamphlets, and (certain types of) epistles. In this talk, I'll introduce you to several types of little books people have historically made for their friends in reverse chronological order, as well as the associated movements and defining characteristics of each type of little books.
-- [Slides](https://www.slideshare.net/slideshow/humans-love-making-little-books-for-our-friends-toorcamp-2024/269958316]
+- [Slides](https://www.slideshare.net/slideshow/humans-love-making-little-books-for-our-friends-toorcamp-2024/269958316)
 
 ### North Bay Python: What Not To Document And Why
 We’re hopefully all on board with writing documentation for our projects. However, especially with the rise of supply-chain attacks, there are some aspects of our projects that we really shouldn’t document, and should instead remediate as vulnerabilities. If we do document these aspects of a project, it may help someone compromise the project itself or our users. In this talk, you will learn why some aspects of documentation may help attackers more than users, how to recognize those aspects in your own projects, and what to do when you encounter such an issue.
