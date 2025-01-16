@@ -13,9 +13,13 @@ I've sorted the talks by year for convenience, especially because some talks exi
 I still have plenty of availability if you'd like me to speak at your event this year! 
 
 ### January 9 Techtonica Workshop: Goal Setting for the New Year
-[Event Listing](https://www.eventbrite.com/e/workshop-goal-setting-for-the-new-year-tickets-1115380496089)
+2025 will bring new challenges of all kinds, and each of you has something unique to offer in tackling problems from systemic to tactical. In this workshop, Margaret Fero, Techtonica's Sponsorships Lead, will take you through a series of exercises to reflect on your values, set goals on three timescales, and enter the year with a clear vision of how you see yourself moving through the year to come.
+
+By the end of this workshop, you will have written priority-driven lists of goals for the next 90 days, the next year, and the long-term trajectory you see yourself on. By looking ahead and then stepping back, you will contextualize your current objectives within your career goals to ensure that each step you take moves you forward.
 
 This one doesn't have a public recording or slides currently, because they may make the video available by request in the future as a fundraiser.
+- [Event Listing](https://www.eventbrite.com/e/workshop-goal-setting-for-the-new-year-tickets-1115380496089)
+
 
 ## 2024 
 In 2024, I gave two very different talks, one of which is an updated version of a talk I presented in rough draft form the first month of the pandemic lockdown and the other of which was brand new.
