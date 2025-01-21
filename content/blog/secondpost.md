@@ -1,7 +1,7 @@
 ---
 title: Setting SMART Research Objectives
 description: This year I tried a new process to set SMART research objectives for myself.
-date: 2024-01-18
+date: 2024-01-21
 tags: goal-setting, research, planning, time management
 ---
 This year, I'm trying a different approach to planning my research goals. Rather than pick a general area to explore and see where it goes, as I often do, I'm attempting to set myself SMART research objectives by targeting specific combinations of topic and conference proposal deadline. In case you're not familiar with SMART goals, [George T. Doran's original 1981 article](https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf) introducing them is a dated but still valuable read. The acronym has somewhat shifted over time, and today mostly refers to goals that are:
