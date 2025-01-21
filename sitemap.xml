@@ -2,16 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://maggiefero.github.io/blog/firstpost/</loc>
-		<lastmod>2024-01-13</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://maggiefero.github.io/blog/secondpost/</loc>
-		<lastmod>2024-01-21</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://maggiefero.github.io/about/</loc>
 		<lastmod>2025-01-10</lastmod>
 	</url>
@@ -32,8 +22,18 @@
 	</url>
 	
 	<url>
+		<loc>https://maggiefero.github.io/blog/firstpost/</loc>
+		<lastmod>2025-01-13</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://maggiefero.github.io/talks/</loc>
 		<lastmod>2025-01-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/blog/secondpost/</loc>
+		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
