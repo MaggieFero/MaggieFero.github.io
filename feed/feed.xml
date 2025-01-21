@@ -5,11 +5,43 @@
   <subtitle>This blog contains content known to Margaret Fero.</subtitle>
   <link href="https://maggiefero.github.io/feed/feed.xml" rel="self" />
   <link href="https://maggiefero.github.io/" />
-  <updated>2024-01-13T00:00:00Z</updated>
+  <updated>2024-01-18T00:00:00Z</updated>
   <id>https://maggiefero.github.io/</id>
   <author>
     <name>Margaret Fero</name>
   </author>
+  <entry>
+    <title>Setting SMART Research Objectives</title>
+    <link href="https://maggiefero.github.io/blog/secondpost/" />
+    <updated>2024-01-18T00:00:00Z</updated>
+    <id>https://maggiefero.github.io/blog/secondpost/</id>
+    <content type="html">&lt;p&gt;This year, I&#39;m trying a different approach to planning my research goals. Rather than pick a general area to explore and see where it goes, as I often do, I&#39;m attempting to set myself SMART research objectives by targeting specific combinations of topic and conference proposal deadline. In case you&#39;re not familiar with SMART goals, &lt;a href=&quot;https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf&quot;&gt;George T. Doran&#39;s original 1981 article&lt;/a&gt; introducing them is a dated but still valuable read. The acronym has somewhat shifted over time, and today mostly refers to goals that are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;S&lt;/strong&gt;pecific, rather than overly-broad or general, because over-generality can make taking action more difficult&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M&lt;/strong&gt;easurable, according to specific metrics you set up front&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;ttainable within the time you have and with the resources available to you&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt;elevant to your team&#39;s (or in this case, my personal) goals and interests&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;T&lt;/strong&gt;ime-Bound, rather than going on indefinitely&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;SMART goals are no longer considered the best framework for team- or organization-level goal-setting, but I still really like them for my individual goals.&lt;/p&gt;
+&lt;p&gt;By using conference schedules as a scaffold for planning my research this year, I have applied the SMART framework to avoid letting the scope of my goals creep beyond what I&#39;m likely to achieve. I&#39;m really pleased with how my research objectives came out with this new methodology, so I thought I&#39;d share the four-step process!&lt;/p&gt;
+&lt;h1 id=&quot;1-list-interesting-conferences&quot;&gt;1. List Interesting Conferences&lt;/h1&gt;
+&lt;p&gt;First, I listed out conferences where I think it would be cool to submit something this year. I don&#39;t expect every proposal I submit to be accepted, but picking specific conferences I&#39;m interested in sharing things with gives me natural deadlines. This both ensures &lt;em&gt;Relevance&lt;/em&gt;, because they&#39;re events I know I would like to attend, and keeps things &lt;em&gt;Time-bound&lt;/em&gt;, because most of these events have predictable CFP deadlines. In some cases, the deadline has been announced. In other cases, I extrapolate from when the CFP has closed in previous years. In one case, the conference has a rolling CFP deadline, so I can fit it in flexibly around other research but certainly no later than a month before the event. At this stage, I didn&#39;t worry about what I might have to share, or what I might want to look into for a given conference in particular.&lt;/p&gt;
+&lt;h1 id=&quot;2-list-interesting-research-areas&quot;&gt;2. List Interesting Research Areas&lt;/h1&gt;
+&lt;p&gt;Once I had my list of interesting conferences, I set it aside and made a list of interesting topics. Some of these were general areas I&#39;m curious about exploring to see what I can find, while others were already &lt;em&gt;specific&lt;/em&gt; enough to be a research goal as-is. These included areas I wanted to compile new datasets in, areas where I wanted to analyze an existing dataset in a new way, and areas where I wanted to summarize what&#39;s already out there in a literature review or similar.&lt;/p&gt;
+&lt;p&gt;My favorite projects tend to involve analyzing existing datasets in new ways, so those were overrepresented on this list. I decided that&#39;s fine for my goals. I&#39;m mostly looking to learn some new things, help others solve problems, and have fun doing it. I&#39;m not as concerned about a balance of methodologies as I would be if this was workplace research on a single specific topic from a variety of angles.&lt;/p&gt;
+&lt;h1 id=&quot;3-map-research-areas-to-conferences&quot;&gt;3. Map Research Areas to Conferences&lt;/h1&gt;
+&lt;p&gt;Next, I mapped the two lists onto each other. Where the research areas list had something general, combining a research area with a conference&#39;s tone and focus often helped me narrow down the subject until I had something &lt;em&gt;specific&lt;/em&gt; for every area/conference combination. Each of these combinations is inherently &lt;em&gt;measureable&lt;/em&gt; as well, because the expected outcome for each area/conference combination is a CFP submission.&lt;/p&gt;
+&lt;p&gt;Some of those will turn into talks, but having an audience in mind keeps the project focused even if it ends up not making the cut for this year&#39;s event. In some cases, multiple conferences have a similar enough vibe or the research isn&#39;t too of-the-moment so I can iterate on an unaccepted talk concept for future events. In a year where I had unaccepted talks from the previous year to iterate on, I would probably have planned some of those in at this stage as well. I don&#39;t have any right now, though, so this is a big new-project year for me.&lt;/p&gt;
+&lt;h1 id=&quot;4-check-your-list-twice&quot;&gt;4. Check Your List Twice&lt;/h1&gt;
+&lt;p&gt;Once I had a list of projects I&#39;m curious about and audiences I think would be interested in hearing about what I find, it was time to go over that list one more time for the last aspect of SMART goals: &lt;em&gt;Attainability&lt;/em&gt;. One of the conferences already had their CFP deadline for this year, and I could submit something for next year but the project I thought that audience would enjoy relates to a current trend that might not be important any more by then. That one got eliminated as &lt;em&gt;unattainable&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I also flagged a few where a dataset to be compiled or analyzed might be hard to pull together, and one where a costly tool I don&#39;t currently have a license for would be the best way to get the work done. These aren&#39;t necessarily off the list. For example, I might be able to obtain a software license by the time I need it, or there may be an easier way to compile some of the potentially-tricky datasets. I&#39;ve marked these risks and am not counting the related projects as goals I&#39;m committing to until I am able to get more information about their viability.&lt;/p&gt;
+&lt;p&gt;The remaining projects were &lt;em&gt;attainable&lt;/em&gt;, and at this point each research concept had a SMART goal! From here, I can pretty easily break down the projects into phases. Then I&#39;ll create calendar blocks to dedicated time to work on each project, as well as reminders of milestones and deadlines.&lt;/p&gt;
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;By setting research goals for the year based on areas of interest that I thought the audiences of specific conferences I want to attend would enjoy, I was able to ensure that my goals were Specific, Measureable, Relevant, and Time-bound by default. I also noted to myself which potential goals need further assessment of Attainability to see if they&#39;re worth committing to. From here, I&#39;ll break projects down and set reminders.&lt;/p&gt;
+&lt;p&gt;If you try this or a similar process, let me know how it goes! I&#39;d also love to hear about how you&#39;re deciding what to look into this year.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Hello, World!</title>
     <link href="https://maggiefero.github.io/blog/firstpost/" />
