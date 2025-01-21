@@ -31,7 +31,8 @@ Throughout history, humans have loved making little books for our friends. These
 ### North Bay Python: What Not To Document And Why
 We’re hopefully all on board with writing documentation for our projects. However, especially with the rise of supply-chain attacks, there are some aspects of our projects that we really shouldn’t document, and should instead remediate as vulnerabilities. If we do document these aspects of a project, it may help someone compromise the project itself or our users. In this talk, you will learn why some aspects of documentation may help attackers more than users, how to recognize those aspects in your own projects, and what to do when you encounter such an issue.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZlSFth7f8pI?si=LKP32TVO865Y5FDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-- [Video](https://www.youtube.com/watch?v=ZlSFth7f8pI)
+
+
 - [Slides](https://www.slideshare.net/slideshow/humans-love-making-little-books-for-our-friends-toorcamp-2024/269958316)
 
 
