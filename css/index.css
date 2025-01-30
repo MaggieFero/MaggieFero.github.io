@@ -290,4 +290,5 @@ ul.links li a {
     text-decoration: none;
 	padding: 20px;
 	border: solid 0.5em white;
+	font-weight: bold;
   }
