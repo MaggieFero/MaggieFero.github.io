@@ -7,7 +7,7 @@ const eleventyNavigation = {
 const numberOfLatestPostsToShow = 3;
 ---
 <h1> Welcome to Margaret Fero's website! <h1>
-Hello and welcome to my website! Here you can find my <a href="blog.njk">blog posts</a>, <a href="talks.md">talks</a>, <a href="links.njk">ways to contact me and information about my certifications</a>, and a <a href="about.md">bio</a>. If something on this website is useful to you, please let me know so I can do more of that in the future.
+<p>Hello and welcome to my website! Here you can find my <a href="blog.njk">blog posts</a>, <a href="talks.md">talks</a>, <a href="links.njk">ways to contact me and information about my certifications</a>, and a <a href="about.md">bio</a>. If something on this website is useful to you, please let me know so I can do more of that in the future.</p>
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
