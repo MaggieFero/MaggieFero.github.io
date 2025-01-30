@@ -17,4 +17,4 @@ Margaret is always available for volunteer opportunities, short-term consulting/
 You can see the full info about what I'm using here on [the GitHub repo](https://github.com/MaggieFero/MaggieFero.github.io), but a few key things that I'm using are:
 - [11ty](https://github.com/11ty/eleventy) as the static site generator for the site overall
 - [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) as my main source for layout, though I've modified it
-- [11ty-links](https://github.com/BenjaminEHowe/11ty-links/) for the LinkTree-style page!
+- [11ty-links](https://github.com/BenjaminEHowe/11ty-links/) for the LinkTree-style page! Note that I'm not actually pulling in this package as a dependency because it mostly does a thing I didn't really want (email, I am not good at checking emails; please use any of the provided links to contact me through other means instead, and I am much more likely to see it!)
