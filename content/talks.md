@@ -9,6 +9,8 @@ This page includes a selection of my talks, with recordings and/or slides as ava
 
 I've sorted the talks by year for convenience, especially because some talks exist in multiple variants for different audiences or updates over time.
 
+_Note About Pre-2025 Years_: I realized while compiling this page that I have not done a great job keeping track of where I've previously spoken and on what. If something you liked it missing here, please <a href="links.njk">tell me</a>! I'd love to add it.
+
 ## 2025
 I still have plenty of availability if you'd like me to speak at your event this year! 
 
@@ -34,5 +36,13 @@ We’re hopefully all on board with writing documentation for our projects. Howe
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZlSFth7f8pI?si=LKP32TVO865Y5FDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
-## 2023 and earlier
-I'm still working on adding in older talks, so please come back for speaking engagements before 2025!
+## 2023 
+In 2023, I spoke more in private contexts or to small groups than publicly.
+
+### BsidesSF: Backup Plans for Your Backup Plans for Your Backup Plans
+Business Continuity Planning (BCP) is important, but a single enactment of the BCP can increase the impact of other concurrent risks. In this talk, we address the risk that one business continuity event will increase the probability or impact of others, with examples from 🌜space 🌛.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c_bwlz1OJRw?si=l89vp6DCh9cZquRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## 2022 and earlier
+I'm still working on adding in older talks, so please come back for speaking engagements before 2023!
