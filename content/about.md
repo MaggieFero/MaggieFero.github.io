@@ -12,8 +12,9 @@ Margaret prioritizes engagement—both their own and their team's—always seeki
 
 Margaret is always available for volunteer opportunities, short-term consulting/projects, or board membership aligned to their values. They are also currently available for full-time work as Chief of Staff or COO at a mission-driven firm.
 
-#About This Site
+# About This Site
 
 You can see the full info about what I'm using here on [the GitHub repo](https://github.com/MaggieFero/MaggieFero.github.io), but a few key things that I'm using are:
 - [11ty](https://github.com/11ty/eleventy) as the static site generator for the site overall
-- 
+- [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog) as my main source for layout, though I've modified it
+- [11ty-links](https://github.com/BenjaminEHowe/11ty-links/) for the LinkTree-style page!
