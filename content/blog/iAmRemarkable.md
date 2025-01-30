@@ -26,6 +26,19 @@ several of us realized that an accomplishment someone else promoted was also som
 the world with the confidence that this previously-overlooked experience of ours is valuable, and help others realize that achievement.
 
 # Your accomplishments are not only professional.
+One of the exercises involved taking ten minutes to write a list of our own achievements, things we had done that make each of us remarkable. Going into this exercise, ten 
+minutes felt like a lot, but I was pleasantly surprised to fill the time fairly easily. When we reached the end of the time, though, we began to share examples from our lists
+with the group, to practice claiming our achievements out loud. The facilitator, Amanda went first, and chose a personal example. That's when I realized there was only one 
+single personal achievement on my entire list. 
 
+Amanda modeled valuing all of our achievements, both personal and professional, and opened the door for me to see a whole world of achievements from kindness and supporting 
+friends to making a positive impact in my communities in various ways. I think of all the takeaways from the workshop, this one was the most valuable for me. It's so easy when 
+talking about impact to let "impact" mean only "business impact", when the scope of our work in this world is so much more. This also served as a gentle reminder to continue
+to focus on measuring the full scope of my impact, rather than just business aspects, and ensuring that the full scope of my impact grows in positive ways.
 
 # Sharing accomplishments begets accomplishments. 
+When you share your accomplishments, others can see them with two significant positive outcomes: 
+- You can see your potential future self reflected in them.
+- You may see your past self reflected in them.
+Both of these enable others to further their own achievement, and to share their own accomplishments more broadly. This underrated aspect of the importance of self-promotion
+enables greater advancement within our teams and communities.
