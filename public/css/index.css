@@ -293,6 +293,6 @@ ul.links li a {
     display: block;
     text-decoration: none;
 	padding: 20px;
-	border: solid 0.5em white;
+	border: solid 0.5em #fc36c3;
 	font-weight: bold;
   }
