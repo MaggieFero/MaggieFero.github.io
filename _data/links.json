@@ -1,10 +1,22 @@
 [
     {
-      "name": "GitHub Repository",
-      "url": "https://github.com/MaggieFero/MaggieFero.github.io"
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/margaretfero/"
+      },
+    {
+      "name": "GitHub (@MaggieFero)",
+      "url": "https://github.com/MaggieFero/"
     },
     {
-      "name": "Eleventy",
-      "url": "https://www.11ty.dev/"
+        "name": "Mastodon (MaggieFero@Hachyderm.io)",
+        "url": "https://hachyderm.io/@MaggieFero"
+      },
+      {
+        "name": "BlueSky (MaggieFero@bsky.social)",
+        "url": "https://bsky.app/profile/MaggieFero.bsky.social"
+      },
+    {
+      "name": "LinkTree",
+      "url": "https://linktr.ee/MaggieFero"
     }
   ]
