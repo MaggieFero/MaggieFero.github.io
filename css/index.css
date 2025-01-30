@@ -275,3 +275,19 @@ header {
 	margin-right: 1em;
 }
 
+/* Links page mostly via BenjaminEHowe/11ty-links */
+ul#links {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+ul#links li {
+	text-align: center;
+}
+  
+ul#links li a {
+    display: block;
+    text-decoration: none;
+	padding: 20px;
+	border: solid 0.5em white;
+  }
