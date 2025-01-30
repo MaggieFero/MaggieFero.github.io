@@ -1,0 +1,12 @@
+---js
+const eleventyNavigation = {
+	key: "Links",
+	order: 5
+};
+---
+<ul id="links">
+  {%- for link in links -%}
+    <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+  {%- endfor -%}
+</ul>
+#}
