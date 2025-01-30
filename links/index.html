@@ -3,179 +3,11 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Hello, World!</title>
-		<meta name="description" content="This is my first post.">
+		<title>Margaret Fero&#39;s Website</title>
+		<meta name="description" content="I am building a website and I haven&#39;t decided what will be on it yet.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Margaret Fero&#39;s Website">
 		
-		<style>/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
-}
-/* This is an arbitrary CSS string added to the bundle */
+		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -466,7 +298,7 @@ header {
 					<li class="nav-item"><a href="/about/">About</a></li>
 					<li class="nav-item"><a href="/talks/">Talks</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">RSS Feed</a></li>
-					<li class="nav-item"><a href="/links/">Links</a></li>
+					<li class="nav-item"><a href="/links/" aria-current="page">Links</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -474,17 +306,7 @@ header {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="hello-world">Hello, World!</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2025-01-13">13 January 2025</time></li>
-	<li><a href="/tags/getting-started-meta/" class="post-tag">getting started, meta</a></li>
-</ul>
-
-<p>This is my first post on my first 11ty site. I was pretty confused going through the tutorial from the official documentation, but @phildini pointed me to the <em>immensely</em> helpful repo <a href="https://github.com/11ty/eleventy-base-blog/">11ty/eleventy-base-blog</a>, which got me back on track. Overall, I expect this site to contain a few things: my bio, this blog, videos and possibly summaries of some or all of my talks, and possibly if I really get my act together even my LinkTree as a subpage. Who knows what the future may hold!</p>
-
-<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/blog/SMART-research-objectives/">Setting SMART Research Objectives</a></li>
-</ul>
+<ul id="links"><li><a href="https://github.com/MaggieFero/MaggieFero.github.io">GitHub Repository</a></li><li><a href="https://www.11ty.dev/">Eleventy</a></li></ul>
 
 			</heading-anchors>
 		</main>
@@ -493,7 +315,7 @@ header {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/firstpost/` was built on 2025-01-30T07:46:20.996Z -->
+		<!-- This page `/links/` was built on 2025-01-30T07:46:20.995Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
