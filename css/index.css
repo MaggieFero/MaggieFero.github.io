@@ -275,3 +275,14 @@ header {
 	margin-right: 1em;
 }
 
+/* Links page via BenjaminEHowe/11ty-links */
+ul#links {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+  
+ul#links li a {
+    display: block;
+    text-decoration: none;
+  }
