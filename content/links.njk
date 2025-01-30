@@ -4,7 +4,7 @@ const eleventyNavigation = {
 	order: 5
 };
 ---
-<ul id="links">
+<ul class="links">
   {%- for link in links -%}
     <li><a href="{{ link.url }}">{{ link.name }}</a></li>
   {%- endfor -%}
