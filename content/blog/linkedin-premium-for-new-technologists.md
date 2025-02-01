@@ -1,7 +1,6 @@
 ---
 title: How to Use LinkedIn Premium as a New Technologist
-description: Maybe you've gotten into the tech industry recently, or maybe you're still trying to break in. LinkedIn offers premium trials, but it's hard to tell which 
-features to focus on. In this blog, I'll give you some tips for making the most of LinkedIn Premium as a new technologist.
+description: Maybe you've gotten into the tech industry recently, or maybe you're still trying to break in. LinkedIn offers premium trials, but it's hard to tell which features to focus on. In this blog, I'll give you some tips for making the most of LinkedIn Premium as a new technologist.
 date: 2025-01-31
 tags: new to tech, learning, professional networks
 ---
