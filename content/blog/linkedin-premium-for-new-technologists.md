@@ -18,9 +18,8 @@ technical roles, the more personal discretion you may need to exercise, but I th
 _Caveats:_ I've hired juniors several times, and I certainly have experience to speak from, but it's still just one person's experience. I'm hoping to give
 you a great place to start, but you should always consider asking your mentor for more advice or help applying general advice like this to your specific situation. 
 
-I think the most valueable features fall into two big categories %3A **connection** and **learning**. Connection features help you form the direct and indirect relationships that will
-be critical to the development of your career. Learning features help you build knowledge that will help you build better connections or perform better in your new or desired
-role.
+I think the most valueable features fall into two big categories: **connection** and **learning**. Connection features help you form the direct and indirect relationships that will be critical to the development of your career. Learning features help you build knowledge that will help you build better connections or perform better in your 
+new or desired role.
 
 # Connection Features
 I'll start with the connection features, because connections are fundamental to building a career in tech. You can build all the knowledge you want, and it still won't help
@@ -55,10 +54,10 @@ outreach from recruiters who have read your profile and would love to discuss yo
 a spam message. You can help avoid this by including a thoughtful note about what you'd like to discuss and why with this person in particular. 
 
 I often reach out to people who seemed cool or whose work I'm excited about from in-person or online events with a connection request message like "Hi! Thank you for 
-\[something they did that I genuinely liked\]. I'd love to chat more about \[one of our shared interests, either from what they said at the event or from reading their profile\]. 
+[something they did that I genuinely liked]. I'd love to chat more about [one of our shared interests, either from what they said at the event or from reading their profile]. 
 Would you like to connect?" I've met some really great people and had fabulous conversations from this opener. The most important thing is that it's genuine. Most people love
 helping juniors advance, and remember the help they received coming up. With connection requests, you can clarify that you're not an AI bot adding everyone in sight, but an 
-actual user who would like to learn from their achievements.
+actual user who would genuinely like to learn from their achievements.
 
 # Learning Features
 The most obvious learning feature of LinkedIn Premium is LinkedIn Learning. Especially at the entry/junior level, though, I think **Who's Viewed My Profile** is also a very 
