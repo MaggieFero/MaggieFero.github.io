@@ -5,15 +5,14 @@ date: 2025-01-31
 tags: new to tech, learning, professional networks
 ---
 
+Maybe you've gotten into the tech industry recently, or maybe you're still trying to break in. LinkedIn offers premium trials and student discounts, but it's hard to tell which features to focus on while you have that limited access. In this blog, I'll give you some tips for making the most of LinkedIn Premium as a new technologist. I leave the role fairly general here, because I think this advice applies whether you're a new software developer, QA analyst, or technical writer. The further you get from  technical roles, the more personal discretion you may need to exercise in applying this advice, but I think at least some of this will be useful for anyone working or hoping to work at a tech company.
+
+I think the most valuable features of LinkedIn Premium fall into two big categories: **connection** and **learning**. Connection features help you form the direct and indirect relationships that will be critical to the development of your career. Learning features help you build knowledge so you can build better industry connections or perform better in your new or desired role.
+
 During my office hours with [Techtonica](https://www.techtonica.org/), I often answer upcoming Software Engineers' questions about resumes and LinkedIn profiles. This week, Juliana Snorek brought me some especially good questions about how to maximize the value of LinkedIn Premium in her job search. Her questions guided me to a more
 holistic way of thinking about LinkedIn Premium for new talent than I previously had. Thanks, Juliana, for inspiring this post!
 
-Maybe you've gotten into the tech industry recently, or maybe you're still trying to break in. LinkedIn offers premium trials and student discounts, but it's hard to tell which features to focus on using while you have that access. In this blog, I'll give you some tips for making the most of LinkedIn Premium as a new technologist. I leave the role fairly general here, because I think this advice applies whether you're a new software developer, QA analyst, or technical writer. The further you get from 
-technical roles, the more personal discretion you may need to exercise in applying this advice, but I think at least some of this will be useful for anyone working or hoping to work at a tech company.
-
-_Caveats:_ I've hired juniors several times, and I certainly have experience to speak from, but it's still just one person's experience. I'm hoping to give you a great place to start, but you should always consider asking your mentor for more advice or help applying general advice like this to your specific situation. 
-
-I think the most valueable features fall into two big categories: **connection** and **learning**. Connection features help you form the direct and indirect relationships that will be critical to the development of your career. Learning features help you build knowledge that will help you build better connections or perform better in your new or desired role.
+I've hired juniors several times, and also love to participate in mentorship (either short- or long-term) with new professionals entering our industry or changing roles. I certainly have relevant experience to speak from, but it's still one person's experience. I'm hoping to give you a great place to start, but you should always consider asking your mentor for more advice or help applying general advice like this to your specific situation. 
 
 # Connection Features
 I'll start with the connection features, because connections are fundamental to building a career in tech. You can build all the knowledge you want, and it still won't help you find a job unless people know that you know those things. The most important Connection features on LinkedIn Premium are **Open Profile** and **Connection Messages**. 
