@@ -112,6 +112,10 @@ a[href]:active {
 	color: var(--text-color-link-active);
 }
 
+p strong {
+	color:  #fc36c3;
+}
+
 main,
 footer {
 	padding: 1rem;
