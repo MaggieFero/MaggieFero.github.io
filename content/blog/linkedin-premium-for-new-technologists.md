@@ -29,7 +29,7 @@ You might already be experiencing some of the inbox inundation that makes this s
 
 I often reach out to people who seemed cool or whose work I'm excited about from in-person or online events with a connection request message like: "Hi! Thank you for **[something they did that I genuinely liked]**. I'd love to chat more about **[one of our shared interests, either from what they said at the event or from reading their profile]**.  Would you like to connect?"
 
-I've met some really great people and had fabulous conversations from this opener. The most important thing is that it's genuine. Most people love helping juniors advance, and remember the help they received coming up. With connection requests, you can clarify that you're not an AI bot adding everyone in sight, but an  actual user who would genuinely like to learn from their achievements.
+I've met some really great people and had fabulous conversations from this opener. The most important thing is that it's genuine. Most people love helping juniors advance, and remember the help they received coming up. With connection requests, you can clarify that you're not an AI bot adding everyone in sight, but an  actual human who would genuinely like to learn from their achievements.
 
 # Learning Features
 The most obvious learning feature of LinkedIn Premium is LinkedIn Learning. Especially at the entry/junior level, though, I think **Who's Viewed My Profile** is also a very  important learning feature.
