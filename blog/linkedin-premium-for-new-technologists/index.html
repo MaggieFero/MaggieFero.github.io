@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="L0eInXHvxim4sbRpPrVdk10J1t7tRtzJ8FBP1suld9s">
+		<title>How to Use LinkedIn Premium as a New Technologist</title>
+		<meta name="description" content="Maybe you&#39;ve gotten into the tech industry recently, or maybe you&#39;re still trying to break in. LinkedIn offers premium trials, but it&#39;s hard to tell which features to focus on when you have limited time. In this blog, I&#39;ll give you some tips for making the most of LinkedIn Premium as a new technologist.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Margaret Fero&#39;s Website">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e8f4;
+	--color-gray-50: #6a759a;
+	--color-gray-90: #0e1f34;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #0d1e33;
+	--text-color-link-active: #fc36c3;
+	--text-color-link-visited: #17365b;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #fff;
+		--color-gray-50: #e0e8f4;
+		--color-gray-90: #e0e8f4;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #6a759a;
+		--text-color-link-active: #fc36c3;
+		--text-color-link-visited: #e0e8f4;
+
+		--background-color: #17365b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 60em;
+}
+ul {
+	text-align: left;
+	list-style-type: circle;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 3px dotted var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Links page mostly via BenjaminEHowe/11ty-links */
+ul.links {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+ul.links li {
+	text-align: center;
+}
+ul.links li a {
+    display: block;
+    text-decoration: none;
+	padding: 20px;
+	border: solid 0.5em #6a759a;
+	font-weight: bold;
+  }</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Margaret Fero&#39;s Website</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog  Posts</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/talks/">Talks</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">RSS Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="how-to-use-linkedin-premium-as-a-new-technologist">How to Use LinkedIn Premium as a New Technologist</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-01-31">31 January 2025</time></li>
+	<li><a href="/tags/new-to-tech-learning-professional-networks/" class="post-tag">new to tech, learning, professional networks</a></li>
+</ul>
+
+<p>Maybe you've gotten into the tech industry recently, or maybe you're still trying to break in. LinkedIn offers premium trials and student discounts, but it's hard to tell which features to focus on while you have that limited access. In this blog, I'll give you some tips for making the most of LinkedIn Premium as a new technologist. I leave the role fairly general here, because I think this advice applies whether you're a new software developer, QA analyst, or technical writer. The further you get from  technical roles, the more personal discretion you may need to exercise in applying this advice, but some of this will be useful for anyone working or hoping to work at a tech company.</p>
+<p>I think the most valuable features of LinkedIn Premium fall into two big categories: <strong>connection</strong> and <strong>learning</strong>. Connection features help you form the direct and indirect relationships that will be critical to the development of your career. Learning features help you build knowledge for your new or desired role, and build more, stronger industry connections. Using these two sets of features alongside each other will help you maximize the benefit of LinkedIn Premium, whether you're on a limited-time trial or have upgraded long-term.</p>
+<p>During my office hours with <a href="https://www.techtonica.org/">Techtonica</a>, I often answer upcoming Software Engineers' questions about resumes and LinkedIn profiles. This week, Juliana Snorek brought me some especially good questions about how to maximize the value of LinkedIn Premium in her job search. Her questions guided me to a more
+holistic way of thinking about LinkedIn Premium for new talent than I previously had. Thanks, Juliana, for inspiring this post!</p>
+<p>One last note before we get into the main content: I've hired juniors several times, and also love to participate in mentorship (either short- or long-term) with new professionals entering our industry or changing roles. I certainly have relevant experience to speak from, but it's still one person's experience. I'm hoping to give you a great place to start, but you should always consider asking your mentor for more advice or help applying general advice like this to your specific situation.</p>
+<h1 id="connection-features">Connection Features</h1>
+<p>I'll start with the connection features, because connections are fundamental to building a career in tech. You can build all the knowledge you want, and it <em>still</em> won't help you find a job unless people know that you know those things. The most important Connection features on LinkedIn Premium are <strong>Open Profile</strong> and <strong>Connection Request Messages</strong>.</p>
+<h2 id="open-profile">Open Profile</h2>
+<p>When you first start a LinkedIn Premium subscription, you'll be guided through some options, like whether you'd like to display a badge on your profile. These are pretty good suggestions for the general userbase, but skip over one thing I believe is critical for job-seekers and upcoming professionals seeking mentorship—Open Profile. LinkedIn's UI describes the feature: &quot;This Premium feature allows anyone on LinkedIn to contact you directly for free, even if they are not connected with you.&quot; This means that other users who don't have LinkedIn Premium will be able to send you a direct message, even if you're not connected to them yet. Without this feature, users on free accounts who've hit  the 5-messages-on-connection-requests-per-month limit won't be able to tell you why they're trying to connect, which can make filtering hiring managers out from spam hard or impossible. Also, since you're likely still building out your professional network, other users mostly won't be in your network yet. That means most non-premium users won't be able to message you with opportunities.</p>
+<p>The option to turn this on is a bit hidden, though! You can enable <strong>Open Profile</strong> directly below the Premium logo on the <strong>Edit Intro</strong> modal. You should be able to open that with one of the topmost of the many edit buttons on your profile page or by going to <code>[your profile link]/edit/forms/intro/new/</code>. For example, I can get to it from https://www.linkedin.com/in/margaretfero/edit/forms/intro/new/ .</p>
+<h2 id="connection-request-messages">Connection Request Messages</h2>
+<p>You may have already guessed some of why this is important based on the previous setting, since that setting's purpose is being allowed to receive messages. However, not everyone you're trying to connect with will have Premium or will have found that setting. As you attend events and meet new colleagues from other organizations, LinkedIn is a common way to connect for followup conversations. However, you'll often be meeting a LOT of people in a row. That can make it hard to keep track of who you wanted to talk to about what and why. By including a message on every connection request, you can increase the odds that it will be accepted by helping the other person understand what you're hoping to connect about, PLUS have a reminder for yourself later on of why you were so excited to talk to this person if it takes a bit for them to notice and accept your request. LinkedIn messages often get buried, especially if you're befriending more-experienced engineers.</p>
+<p>You might already be experiencing some of the inbox inundation that makes this so important, but don't worry if you aren't yet. As you gain more experience in your new field, the requests will come. Many of these will be people trying to sell you products and services (even if you don't actually have purchasing authority), researchers hoping you'll share information your company NDA (non-disclosure agreement) likely says you will not, and recruiters who haven't read your profile and want to talk to you about a role unrelated to your skills and experience. That can get frustrating. Among the frustrating messages, though, are also easily-buried messages you very much want to see. As the recipient, these include messages from great candidates for a role you're hiring, replies from friends, mentorship requests from people you'd be excited to work with, and outreach from recruiters who have read your profile and would love to discuss your dream job. As the sender, you don't want to be the mentorship request somebody mistook for a spam message. You can help avoid this by including a thoughtful note about what you'd like to discuss and why with this person in particular.</p>
+<p>I often reach out to people who seemed cool or whose work I'm excited about from in-person or online events with a connection request message like: &quot;Hi! Thank you for <strong>[something they did that I genuinely liked]</strong>. I'd love to chat more about <strong>[one of our shared interests, either from what they said at the event or from reading their profile]</strong>.  Would you like to connect?&quot;</p>
+<p>I've met some really great people and had fabulous conversations from this opener. The most important thing is that it's genuine. Most people love helping juniors advance, and remember the help they received coming up. With connection requests, you can clarify that you're not an AI bot adding everyone in sight, but an  actual human who would genuinely like to learn from their achievements.</p>
+<h1 id="learning-features">Learning Features</h1>
+<p>The most obvious learning feature of LinkedIn Premium is LinkedIn Learning. Especially at the entry or junior level, though, I think <strong>Who's Viewed My Profile</strong> is also a very  important learning feature.</p>
+<h2 id="linkedin-learning">LinkedIn Learning</h2>
+<p><a href="https://www.linkedin.com/learning/">LinkedIn Learning</a> is a courseware platform built into LinkedIn. It includes video-based courses (often with exercise files), a text-based AI coaching chatbot, and hands-on practice-based coding courses. I haven't been super impressed with the AI coaching responses so far, but it can be a helpful starting point if you're feeling overwhelmed by the amount of content available on LinkedIn Learning. The technical skills courses cover a range of languages and topics, and are mostly best-suited to languages or topics you haven't used much before. Where I feel like LinkedIn Learning really shines are the core skills courses. One of the best ways to stand out as a junior- or entry-level professional is with strong core (sometimes called &quot;soft&quot;) skills, and LinkedIn Learning covers a wide range of these topics. Whether you want to learn new project management methodologies to improve your ability to work independently, teamwork essentials to learn how to demonstrate your value to the rest of your team, or business communication, LinkedIn Learning has you covered.</p>
+<p>You may also have access to LinkedIn Learning through your local public library or an educational institution, but the Premium Profile version has the added advantage of tracking your progress and letting you add completed courses directly to your profile. Some but not all of the organizational plans do that, so it's good to compare when you're deciding how valuable this particular feature is to focus on during your trial or early premium membership.</p>
+<h2 id="whos-viewed-my-profile">Who's Viewed My Profile</h2>
+<p>Another way you can learn on LinkedIn Premium is by checking the <strong>Who's Viewed My Profile</strong> feature regularly, especially around times that you've posted content or updated part of your profile. Updating your profile in particular can significantly influence whose search results you show up in, because some fields are prioritized for search usage. It's good to check who's viewing your profile and how they found you, then think about whether those are the people you need to have seeing your profile. If you're looking for a new role as a software engineer, but half of your viewers are HR at chemical engineering companies, you probably want to tweak the words you're using to describe yourself and your experience.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>LinkedIn Premium and starting off in a new career field can both sometimes feel overwhelming. I hope that after reading this, you can narrow down your focus on LinkedIn to leave more brain space for the learning and connection-building you need most to grow.</p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/iAmRemarkable/">Reflections on the &#92;#IAmRemarkable Workshop</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/linkedin-premium-for-new-technologists/` was built on 2025-02-02T01:59:49.982Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
