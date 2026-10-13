@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="L0eInXHvxim4sbRpPrVdk10J1t7tRtzJ8FBP1suld9s">
+		<title>Reflections on the &#92;#IAmRemarkable Workshop</title>
+		<meta name="description" content="After attending an &#92;#IAmRemarkable Workshop by Amanda Ho Sang, I chose three key takeaways to share in this post.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Margaret Fero&#39;s Website">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e8f4;
+	--color-gray-50: #6a759a;
+	--color-gray-90: #0e1f34;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #0d1e33;
+	--text-color-link-active: #fc36c3;
+	--text-color-link-visited: #17365b;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #fff;
+		--color-gray-50: #e0e8f4;
+		--color-gray-90: #e0e8f4;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #C2C6D6;
+		--text-color-link-active: #fc36c3;
+		--text-color-link-visited: #e0e8f4;
+
+		--background-color: #17365b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 60em;
+}
+ul {
+	text-align: left;
+	list-style-type: circle;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+p strong {
+	color:  #fc36c3;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 3px dotted var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Links page mostly via BenjaminEHowe/11ty-links */
+ul.links {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+ul.links li {
+	text-align: center;
+}
+ul.links li a {
+    display: block;
+    text-decoration: none;
+	padding: 20px;
+	border: solid 0.5em #6a759a;
+	font-weight: bold;
+  }</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Margaret Fero&#39;s Website</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Blog  Posts</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/talks/">Talks</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">RSS Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="reflections-on-the-iamremarkable-workshop">Reflections on the #IAmRemarkable Workshop</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-01-29">29 January 2025</time></li>
+	<li><a href="/tags/self-promotion/" class="post-tag">self-promotion</a>, </li>
+	<li><a href="/tags/coaching/" class="post-tag"> coaching</a>, </li>
+	<li><a href="/tags/career-planning/" class="post-tag"> career planning</a>, </li>
+	<li><a href="/tags/advancement/" class="post-tag"> advancement</a></li>
+</ul>
+
+<p>This week I attended an <a href="https://www.rmrkblty.org/iamremarkable">#IAmRemarkable</a> Workshop hosted by facilitator Amanda Ho Sang for participants from a handful of
+tech leadership communities. In this workshop, we learned about the origin of #IAmRemarkable as a women-focused initiative at Google, and how it has since
+grown into a movement for all to participate in building healthy self-promotional skills.
+We heard about and discussed the benefits of fact-based self-promotion, and how we can create success for those around us by modeling it ourselves
+through showing examples of our achievements instead of de-emphasizing them.</p>
+<p>Throughout the workshop, we were invited to participate in exercises that encouraged us to think deeply about the ways we are each remarkable and what we have
+already accomplished. We were further challenged to put theory into practice by sharing some of our accomplishments with the group, to help model that success
+for those around us in the workshop. This was also a great opportunity to begin building muscle memory offering accomplishments up to a group instead of hiding them.
+I'm not sharing specific examples of others' accomplishments in this post to protect
+participants' privacy, but will share general descriptions of what we learned from each other. My key takeaways from this experience were that:</p>
+<ul>
+<li>Sharing accomplishments begets accomplishments.</li>
+<li>Self-promotion is important for more than just your own advancement.</li>
+<li>Your accomplishments are not only professional.</li>
+</ul>
+<h1 id="sharing-accomplishments-begets-accomplishments">Sharing accomplishments begets accomplishments.</h1>
+<p>Sharing your accomplishments gives others a clearer view into what you have been working on lately and what you've done previously. This creates a more accurate
+perception of your knowledge, skills, and abilities, which in turn empowers others to enlist your help as appropriate. If nobody knows you have worked in a field before, they
+are less likely to invite you to participate in relevant future projects, and very unlikely to know when to pull you in for assistance on their own related projects or tasks.
+This is one of the most commonly-discussed benefits of self-promotion, as a means of achieving personal advancement. The studies presented in this workshop, however, emphasized
+the benefits to others of being able to enlist your assistance when appropriate, and highlighted how a sense of modesty can be a detriment to the team and business
+in this context.</p>
+<h1 id="self-promotion-is-important-for-more-than-just-your-own-advancement">Self-promotion is important for more than just your own advancement.</h1>
+<p>While I knew at the start of the workshop that self-promotion is critical to personal advancement, I underestimated the impact that appropriate, fact-based
+self-promotion can have on others. Promoting your achievements not only helps others who may be able to help you advance see what you've been up to. It also helps
+others with less or similar experience see the accomplishment you shared as an option available to them. Letting others see your accomplishments creates two significant
+positive outcomes beyond yourself:</p>
+<ul>
+<li>They can see their potential future self reflected in your accomplishments.</li>
+<li>They may see their past self reflected in your accomplishments, and realize they're underselling their own experience.
+Both of these enable others to further their own achievement, and to share their own accomplishments more broadly. This underrated aspect of the importance of self-promotion
+can enable greater advancement within our teams and communities. That advancement may occur through role modeling for less-experienced
+people who see themselves in you and aren't sure where to go with their careers yet, or through helping people with as much or more experience realize what they've already
+done and should be sharing more of from their own background.</li>
+</ul>
+<p>In the course of this workshop alone, several of us realized that an accomplishment someone else promoted was also something we had done ourselves or
+similar to one of our own accomplishments. Now we can go into the world with the confidence that this previously-overlooked experience of ours is valuable, and help others
+realize that achievement as well.</p>
+<h1 id="your-accomplishments-are-not-only-professional">Your accomplishments are not only professional.</h1>
+<p>One of the exercises involved taking ten minutes to write a list of our own achievements, things we had done that make each of us remarkable. Going into this exercise, ten
+minutes felt like a lot, but I was pleasantly surprised to fill the time fairly easily. When we reached the end of the time, though, we began to share examples from our lists
+with the group to practice claiming our achievements out loud. The facilitator, Amanda, went first, and chose a personal example. That's when I realized there was only one
+single non-work accomplishment on my entire list.</p>
+<p>In sharing her personal example, Amanda modeled valuing all of our achievements, both professional and beyond. Her example opened the door for me to notice a whole world of
+achievements I had been overlooking, from kindness and supporting friends to making a positive impact in my communities in various ways. I think of all the takeaways
+from the workshop, this one was the most valuable for me. It's so easy when talking about impact to let &quot;impact&quot; mean only &quot;business impact&quot;, when the effect of our work
+often extends well beyond business impact and into interpersonal and social effects, for better or for worse. This exercise served as a gentle reminder to continue
+to focus on measuring the full scope of our impact, rather than business impact alone. In measuring the full scope of our impact, we can ensure that our impact grows
+in positive ways.</p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/SMART-research-objectives/">Setting SMART Research Objectives</a></li><li class="links-nextprev-next">Next →<br><a href="/blog/linkedin-premium-for-new-technologists/">How to Use LinkedIn Premium as a New Technologist</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p> <em> Thanks for reading to the end! <3 </em> </p>
+		</footer>
+
+		<!-- This page `/blog/iAmRemarkable/` was built on 2026-10-13T22:48:43.988Z -->
+		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
+	</body>
+</html>
