@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  
+  <title>Margaret Fero&#39;s Blog</title>
+  <subtitle>This blog contains content known to Margaret Fero.</subtitle>
+  <link href="https://maggiefero.github.io/eleventy-base-blog/feed/feed.xml" rel="self" />
+  <link href="https://maggiefero.github.io/eleventy-base-blog/" />
+  <updated>2025-01-31T00:00:00Z</updated>
+  <id>https://maggiefero.github.io/eleventy-base-blog/</id>
+  <author>
+    <name>Margaret Fero</name>
+  </author>
+  <entry>
+    <title>How to Use LinkedIn Premium as a New Technologist</title>
+    <link href="https://maggiefero.github.io/eleventy-base-blog/blog/linkedin-premium-for-new-technologists/" />
+    <updated>2025-01-31T00:00:00Z</updated>
+    <id>https://maggiefero.github.io/eleventy-base-blog/blog/linkedin-premium-for-new-technologists/</id>
+    <content type="html">&lt;p&gt;Maybe you&#39;ve gotten into the tech industry recently, or maybe you&#39;re still trying to break in. LinkedIn offers premium trials and student discounts, but it&#39;s hard to tell which features to focus on while you have that limited access. In this blog, I&#39;ll give you some tips for making the most of LinkedIn Premium as a new technologist. I leave the role fairly general here, because I think this advice applies whether you&#39;re a new software developer, QA analyst, or technical writer. The further you get from  technical roles, the more personal discretion you may need to exercise in applying this advice, but some of this will be useful for anyone working or hoping to work at a tech company.&lt;/p&gt;
+&lt;p&gt;I think the most valuable features of LinkedIn Premium fall into two big categories: &lt;strong&gt;connection&lt;/strong&gt; and &lt;strong&gt;learning&lt;/strong&gt;. Connection features help you form the direct and indirect relationships that will be critical to the development of your career. Learning features help you build knowledge for your new or desired role, and build more, stronger industry connections. Using these two sets of features alongside each other will help you maximize the benefit of LinkedIn Premium, whether you&#39;re on a limited-time trial or have upgraded long-term.&lt;/p&gt;
+&lt;p&gt;During my office hours with &lt;a href=&quot;https://www.techtonica.org/&quot;&gt;Techtonica&lt;/a&gt;, I often answer upcoming Software Engineers&#39; questions about resumes and LinkedIn profiles. This week, Juliana Snorek brought me some especially good questions about how to maximize the value of LinkedIn Premium in her job search. Her questions guided me to a more
+holistic way of thinking about LinkedIn Premium for new talent than I previously had. Thanks, Juliana, for inspiring this post!&lt;/p&gt;
+&lt;p&gt;One last note before we get into the main content: I&#39;ve hired juniors several times, and also love to participate in mentorship (either short- or long-term) with new professionals entering our industry or changing roles. I certainly have relevant experience to speak from, but it&#39;s still one person&#39;s experience. I&#39;m hoping to give you a great place to start, but you should always consider asking your mentor for more advice or help applying general advice like this to your specific situation.&lt;/p&gt;
+&lt;h1 id=&quot;connection-features&quot;&gt;Connection Features&lt;/h1&gt;
+&lt;p&gt;I&#39;ll start with the connection features, because connections are fundamental to building a career in tech. You can build all the knowledge you want, and it &lt;em&gt;still&lt;/em&gt; won&#39;t help you find a job unless people know that you know those things. The most important Connection features on LinkedIn Premium are &lt;strong&gt;Open Profile&lt;/strong&gt; and &lt;strong&gt;Connection Request Messages&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;open-profile&quot;&gt;Open Profile&lt;/h2&gt;
+&lt;p&gt;When you first start a LinkedIn Premium subscription, you&#39;ll be guided through some options, like whether you&#39;d like to display a badge on your profile. These are pretty good suggestions for the general userbase, but skip over one thing I believe is critical for job-seekers and upcoming professionals seeking mentorship—Open Profile. LinkedIn&#39;s UI describes the feature: &amp;quot;This Premium feature allows anyone on LinkedIn to contact you directly for free, even if they are not connected with you.&amp;quot; This means that other users who don&#39;t have LinkedIn Premium will be able to send you a direct message, even if you&#39;re not connected to them yet. Without this feature, users on free accounts who&#39;ve hit  the 5-messages-on-connection-requests-per-month limit won&#39;t be able to tell you why they&#39;re trying to connect, which can make filtering hiring managers out from spam hard or impossible. Also, since you&#39;re likely still building out your professional network, other users mostly won&#39;t be in your network yet. That means most non-premium users won&#39;t be able to message you with opportunities.&lt;/p&gt;
+&lt;p&gt;The option to turn this on is a bit hidden, though! You can enable &lt;strong&gt;Open Profile&lt;/strong&gt; directly below the Premium logo on the &lt;strong&gt;Edit Intro&lt;/strong&gt; modal. You should be able to open that with one of the topmost of the many edit buttons on your profile page or by going to &lt;code&gt;[your profile link]/edit/forms/intro/new/&lt;/code&gt;. For example, I can get to it from https://www.linkedin.com/in/margaretfero/edit/forms/intro/new/ .&lt;/p&gt;
+&lt;h2 id=&quot;connection-request-messages&quot;&gt;Connection Request Messages&lt;/h2&gt;
+&lt;p&gt;You may have already guessed some of why this is important based on the previous setting, since that setting&#39;s purpose is being allowed to receive messages. However, not everyone you&#39;re trying to connect with will have Premium or will have found that setting. As you attend events and meet new colleagues from other organizations, LinkedIn is a common way to connect for followup conversations. However, you&#39;ll often be meeting a LOT of people in a row. That can make it hard to keep track of who you wanted to talk to about what and why. By including a message on every connection request, you can increase the odds that it will be accepted by helping the other person understand what you&#39;re hoping to connect about, PLUS have a reminder for yourself later on of why you were so excited to talk to this person if it takes a bit for them to notice and accept your request. LinkedIn messages often get buried, especially if you&#39;re befriending more-experienced engineers.&lt;/p&gt;
+&lt;p&gt;You might already be experiencing some of the inbox inundation that makes this so important, but don&#39;t worry if you aren&#39;t yet. As you gain more experience in your new field, the requests will come. Many of these will be people trying to sell you products and services (even if you don&#39;t actually have purchasing authority), researchers hoping you&#39;ll share information your company NDA (non-disclosure agreement) likely says you will not, and recruiters who haven&#39;t read your profile and want to talk to you about a role unrelated to your skills and experience. That can get frustrating. Among the frustrating messages, though, are also easily-buried messages you very much want to see. As the recipient, these include messages from great candidates for a role you&#39;re hiring, replies from friends, mentorship requests from people you&#39;d be excited to work with, and outreach from recruiters who have read your profile and would love to discuss your dream job. As the sender, you don&#39;t want to be the mentorship request somebody mistook for a spam message. You can help avoid this by including a thoughtful note about what you&#39;d like to discuss and why with this person in particular.&lt;/p&gt;
+&lt;p&gt;I often reach out to people who seemed cool or whose work I&#39;m excited about from in-person or online events with a connection request message like: &amp;quot;Hi! Thank you for &lt;strong&gt;[something they did that I genuinely liked]&lt;/strong&gt;. I&#39;d love to chat more about &lt;strong&gt;[one of our shared interests, either from what they said at the event or from reading their profile]&lt;/strong&gt;.  Would you like to connect?&amp;quot;&lt;/p&gt;
+&lt;p&gt;I&#39;ve met some really great people and had fabulous conversations from this opener. The most important thing is that it&#39;s genuine. Most people love helping juniors advance, and remember the help they received coming up. With connection requests, you can clarify that you&#39;re not an AI bot adding everyone in sight, but an  actual human who would genuinely like to learn from their achievements.&lt;/p&gt;
+&lt;h1 id=&quot;learning-features&quot;&gt;Learning Features&lt;/h1&gt;
+&lt;p&gt;The most obvious learning feature of LinkedIn Premium is LinkedIn Learning. Especially at the entry or junior level, though, I think &lt;strong&gt;Who&#39;s Viewed My Profile&lt;/strong&gt; is also a very  important learning feature.&lt;/p&gt;
+&lt;h2 id=&quot;linkedin-learning&quot;&gt;LinkedIn Learning&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/learning/&quot;&gt;LinkedIn Learning&lt;/a&gt; is a courseware platform built into LinkedIn. It includes video-based courses (often with exercise files), a text-based AI coaching chatbot, and hands-on practice-based coding courses. I haven&#39;t been super impressed with the AI coaching responses so far, but it can be a helpful starting point if you&#39;re feeling overwhelmed by the amount of content available on LinkedIn Learning. The technical skills courses cover a range of languages and topics, and are mostly best-suited to languages or topics you haven&#39;t used much before. Where I feel like LinkedIn Learning really shines are the core skills courses. One of the best ways to stand out as a junior- or entry-level professional is with strong core (sometimes called &amp;quot;soft&amp;quot;) skills, and LinkedIn Learning covers a wide range of these topics. Whether you want to learn new project management methodologies to improve your ability to work independently, teamwork essentials to learn how to demonstrate your value to the rest of your team, or business communication, LinkedIn Learning has you covered.&lt;/p&gt;
+&lt;p&gt;You may also have access to LinkedIn Learning through your local public library or an educational institution, but the Premium Profile version has the added advantage of tracking your progress and letting you add completed courses directly to your profile. Some but not all of the organizational plans do that, so it&#39;s good to compare when you&#39;re deciding how valuable this particular feature is to focus on during your trial or early premium membership.&lt;/p&gt;
+&lt;h2 id=&quot;whos-viewed-my-profile&quot;&gt;Who&#39;s Viewed My Profile&lt;/h2&gt;
+&lt;p&gt;Another way you can learn on LinkedIn Premium is by checking the &lt;strong&gt;Who&#39;s Viewed My Profile&lt;/strong&gt; feature regularly, especially around times that you&#39;ve posted content or updated part of your profile. Updating your profile in particular can significantly influence whose search results you show up in, because some fields are prioritized for search usage. It&#39;s good to check who&#39;s viewing your profile and how they found you, then think about whether those are the people you need to have seeing your profile. If you&#39;re looking for a new role as a software engineer, but half of your viewers are HR at chemical engineering companies, you probably want to tweak the words you&#39;re using to describe yourself and your experience.&lt;/p&gt;
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;LinkedIn Premium and starting off in a new career field can both sometimes feel overwhelming. I hope that after reading this, you can narrow down your focus on LinkedIn to leave more brain space for the learning and connection-building you need most to grow.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Reflections on the &#92;#IAmRemarkable Workshop</title>
+    <link href="https://maggiefero.github.io/eleventy-base-blog/blog/iAmRemarkable/" />
+    <updated>2025-01-29T00:00:00Z</updated>
+    <id>https://maggiefero.github.io/eleventy-base-blog/blog/iAmRemarkable/</id>
+    <content type="html">&lt;p&gt;This week I attended an &lt;a href=&quot;https://www.rmrkblty.org/iamremarkable&quot;&gt;#IAmRemarkable&lt;/a&gt; Workshop hosted by facilitator Amanda Ho Sang for participants from a handful of
+tech leadership communities. In this workshop, we learned about the origin of #IAmRemarkable as a women-focused initiative at Google, and how it has since
+grown into a movement for all to participate in building healthy self-promotional skills.
+We heard about and discussed the benefits of fact-based self-promotion, and how we can create success for those around us by modeling it ourselves
+through showing examples of our achievements instead of de-emphasizing them.&lt;/p&gt;
+&lt;p&gt;Throughout the workshop, we were invited to participate in exercises that encouraged us to think deeply about the ways we are each remarkable and what we have
+already accomplished. We were further challenged to put theory into practice by sharing some of our accomplishments with the group, to help model that success
+for those around us in the workshop. This was also a great opportunity to begin building muscle memory offering accomplishments up to a group instead of hiding them.
+I&#39;m not sharing specific examples of others&#39; accomplishments in this post to protect
+participants&#39; privacy, but will share general descriptions of what we learned from each other. My key takeaways from this experience were that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sharing accomplishments begets accomplishments.&lt;/li&gt;
+&lt;li&gt;Self-promotion is important for more than just your own advancement.&lt;/li&gt;
+&lt;li&gt;Your accomplishments are not only professional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;sharing-accomplishments-begets-accomplishments&quot;&gt;Sharing accomplishments begets accomplishments.&lt;/h1&gt;
+&lt;p&gt;Sharing your accomplishments gives others a clearer view into what you have been working on lately and what you&#39;ve done previously. This creates a more accurate
+perception of your knowledge, skills, and abilities, which in turn empowers others to enlist your help as appropriate. If nobody knows you have worked in a field before, they
+are less likely to invite you to participate in relevant future projects, and very unlikely to know when to pull you in for assistance on their own related projects or tasks.
+This is one of the most commonly-discussed benefits of self-promotion, as a means of achieving personal advancement. The studies presented in this workshop, however, emphasized
+the benefits to others of being able to enlist your assistance when appropriate, and highlighted how a sense of modesty can be a detriment to the team and business
+in this context.&lt;/p&gt;
+&lt;h1 id=&quot;self-promotion-is-important-for-more-than-just-your-own-advancement&quot;&gt;Self-promotion is important for more than just your own advancement.&lt;/h1&gt;
+&lt;p&gt;While I knew at the start of the workshop that self-promotion is critical to personal advancement, I underestimated the impact that appropriate, fact-based
+self-promotion can have on others. Promoting your achievements not only helps others who may be able to help you advance see what you&#39;ve been up to. It also helps
+others with less or similar experience see the accomplishment you shared as an option available to them. Letting others see your accomplishments creates two significant
+positive outcomes beyond yourself:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;They can see their potential future self reflected in your accomplishments.&lt;/li&gt;
+&lt;li&gt;They may see their past self reflected in your accomplishments, and realize they&#39;re underselling their own experience.
+Both of these enable others to further their own achievement, and to share their own accomplishments more broadly. This underrated aspect of the importance of self-promotion
+can enable greater advancement within our teams and communities. That advancement may occur through role modeling for less-experienced
+people who see themselves in you and aren&#39;t sure where to go with their careers yet, or through helping people with as much or more experience realize what they&#39;ve already
+done and should be sharing more of from their own background.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the course of this workshop alone, several of us realized that an accomplishment someone else promoted was also something we had done ourselves or
+similar to one of our own accomplishments. Now we can go into the world with the confidence that this previously-overlooked experience of ours is valuable, and help others
+realize that achievement as well.&lt;/p&gt;
+&lt;h1 id=&quot;your-accomplishments-are-not-only-professional&quot;&gt;Your accomplishments are not only professional.&lt;/h1&gt;
+&lt;p&gt;One of the exercises involved taking ten minutes to write a list of our own achievements, things we had done that make each of us remarkable. Going into this exercise, ten
+minutes felt like a lot, but I was pleasantly surprised to fill the time fairly easily. When we reached the end of the time, though, we began to share examples from our lists
+with the group to practice claiming our achievements out loud. The facilitator, Amanda, went first, and chose a personal example. That&#39;s when I realized there was only one
+single non-work accomplishment on my entire list.&lt;/p&gt;
+&lt;p&gt;In sharing her personal example, Amanda modeled valuing all of our achievements, both professional and beyond. Her example opened the door for me to notice a whole world of
+achievements I had been overlooking, from kindness and supporting friends to making a positive impact in my communities in various ways. I think of all the takeaways
+from the workshop, this one was the most valuable for me. It&#39;s so easy when talking about impact to let &amp;quot;impact&amp;quot; mean only &amp;quot;business impact&amp;quot;, when the effect of our work
+often extends well beyond business impact and into interpersonal and social effects, for better or for worse. This exercise served as a gentle reminder to continue
+to focus on measuring the full scope of our impact, rather than business impact alone. In measuring the full scope of our impact, we can ensure that our impact grows
+in positive ways.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Setting SMART Research Objectives</title>
+    <link href="https://maggiefero.github.io/eleventy-base-blog/blog/SMART-research-objectives/" />
+    <updated>2025-01-21T00:00:00Z</updated>
+    <id>https://maggiefero.github.io/eleventy-base-blog/blog/SMART-research-objectives/</id>
+    <content type="html">&lt;p&gt;This year, I&#39;m trying a different approach to planning my research goals. Rather than pick a general area to explore and see where it goes, as I often do, I&#39;m attempting to set myself SMART research objectives by targeting specific combinations of topic and conference proposal deadline. In case you&#39;re not familiar with SMART goals, &lt;a href=&quot;https://community.mis.temple.edu/mis0855002fall2015/files/2015/10/S.M.A.R.T-Way-Management-Review.pdf&quot;&gt;George T. Doran&#39;s original 1981 article&lt;/a&gt; introducing them is a dated but still valuable read. The acronym has somewhat shifted over time, and today mostly refers to goals that are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;S&lt;/strong&gt;pecific, rather than overly-broad or general, because over-generality can make taking action more difficult&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M&lt;/strong&gt;easurable, according to specific metrics you set up front&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A&lt;/strong&gt;ttainable within the time you have and with the resources available to you&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;R&lt;/strong&gt;elevant to your team&#39;s (or in this case, my personal) goals and interests&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;T&lt;/strong&gt;ime-Bound, rather than going on indefinitely&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;SMART goals are no longer considered the best framework for team- or organization-level goal-setting, but I still really like them for my individual goals.&lt;/p&gt;
+&lt;p&gt;By using conference schedules as a scaffold for planning my research this year, I have applied the SMART framework to avoid letting the scope of my goals creep beyond what I&#39;m likely to achieve. I&#39;m really pleased with how my research objectives came out with this new methodology, so I thought I&#39;d share the four-step process!&lt;/p&gt;
+&lt;h1 id=&quot;1-list-interesting-conferences&quot;&gt;1. List Interesting Conferences&lt;/h1&gt;
+&lt;p&gt;First, I listed out conferences where I think it would be cool to submit something this year. I don&#39;t expect every proposal I submit to be accepted, but picking specific conferences I&#39;m interested in sharing things with gives me natural deadlines. This both ensures &lt;em&gt;Relevance&lt;/em&gt;, because they&#39;re events I know I would like to attend, and keeps things &lt;em&gt;Time-bound&lt;/em&gt;, because most of these events have predictable CFP deadlines. In some cases, the deadline has been announced. In other cases, I extrapolate from when the CFP has closed in previous years. In one case, the conference has a rolling CFP deadline, so I can fit it in flexibly around other research but certainly no later than a month before the event. At this stage, I didn&#39;t worry about what I might have to share, or what I might want to look into for a given conference in particular.&lt;/p&gt;
+&lt;h1 id=&quot;2-list-interesting-research-areas&quot;&gt;2. List Interesting Research Areas&lt;/h1&gt;
+&lt;p&gt;Once I had my list of interesting conferences, I set it aside and made a list of interesting topics. Some of these were general areas I&#39;m curious about exploring to see what I can find, while others were already &lt;em&gt;specific&lt;/em&gt; enough to be a research goal as-is. These included areas I wanted to compile new datasets in, areas where I wanted to analyze an existing dataset in a new way, and areas where I wanted to summarize what&#39;s already out there in a literature review or similar.&lt;/p&gt;
+&lt;p&gt;My favorite projects tend to involve analyzing existing datasets in new ways, so those were overrepresented on this list. I decided that&#39;s fine for my goals. I&#39;m mostly looking to learn some new things, help others solve problems, and have fun doing it. I&#39;m not as concerned about a balance of methodologies as I would be if this was workplace research on a single specific topic from a variety of angles.&lt;/p&gt;
+&lt;h1 id=&quot;3-map-research-areas-to-conferences&quot;&gt;3. Map Research Areas to Conferences&lt;/h1&gt;
+&lt;p&gt;Next, I mapped the two lists onto each other. Where the research areas list had something general, combining a research area with a conference&#39;s tone and focus often helped me narrow down the subject until I had something &lt;em&gt;specific&lt;/em&gt; for every area/conference combination. Each of these combinations is inherently &lt;em&gt;measureable&lt;/em&gt; as well, because the expected outcome for each area/conference combination is a CFP submission.&lt;/p&gt;
+&lt;p&gt;Some of those will turn into talks, but having an audience in mind keeps the project focused even if it ends up not making the cut for this year&#39;s event. In some cases, multiple conferences have a similar enough vibe or the research isn&#39;t too of-the-moment so I can iterate on an unaccepted talk concept for future events. In a year where I had unaccepted talks from the previous year to iterate on, I would probably have planned some of those in at this stage as well. I don&#39;t have any right now, though, so this is a big new-project year for me.&lt;/p&gt;
+&lt;h1 id=&quot;4-check-your-list-twice&quot;&gt;4. Check Your List Twice&lt;/h1&gt;
+&lt;p&gt;Once I had a list of projects I&#39;m curious about and audiences I think would be interested in hearing about what I find, it was time to go over that list one more time for the last aspect of SMART goals: &lt;em&gt;Attainability&lt;/em&gt;. One of the conferences already had their CFP deadline for this year, and I could submit something for next year but the project I thought that audience would enjoy relates to a current trend that might not be important any more by then. That one got eliminated as &lt;em&gt;unattainable&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I also flagged a few where a dataset to be compiled or analyzed might be hard to pull together, and one where a costly tool I don&#39;t currently have a license for would be the best way to get the work done. These aren&#39;t necessarily off the list. For example, I might be able to obtain a software license by the time I need it, or there may be an easier way to compile some of the potentially-tricky datasets. I&#39;ve marked these risks and am not counting the related projects as goals I&#39;m committing to until I am able to get more information about their viability.&lt;/p&gt;
+&lt;p&gt;The remaining projects were &lt;em&gt;attainable&lt;/em&gt;, and at this point each research concept had a SMART goal! From here, I can pretty easily break down the projects into phases. Then I&#39;ll create calendar blocks to dedicated time to work on each project, as well as reminders of milestones and deadlines.&lt;/p&gt;
+&lt;h1 id=&quot;summary&quot;&gt;Summary&lt;/h1&gt;
+&lt;p&gt;By setting research goals for the year based on areas of interest that I thought the audiences of specific conferences I want to attend would enjoy, I was able to ensure that my goals were Specific, Measureable, Relevant, and Time-bound by default. I also noted to myself which potential goals need further assessment of Attainability to see if they&#39;re worth committing to. From here, I&#39;ll break projects down and set reminders.&lt;/p&gt;
+&lt;p&gt;If you try this or a similar process, let me know how it goes! I&#39;d also love to hear about how you&#39;re deciding what to look into this year.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Hello, World!</title>
+    <link href="https://maggiefero.github.io/eleventy-base-blog/blog/firstpost/" />
+    <updated>2025-01-13T00:00:00Z</updated>
+    <id>https://maggiefero.github.io/eleventy-base-blog/blog/firstpost/</id>
+    <content type="html">&lt;p&gt;This is my first post on my first 11ty site. I was pretty confused going through the tutorial from the official documentation, but @phildini pointed me to the &lt;em&gt;immensely&lt;/em&gt; helpful repo &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog/&quot;&gt;11ty/eleventy-base-blog&lt;/a&gt;, which got me back on track. Overall, I expect this site to contain a few things: my bio, this blog, videos and possibly summaries of some or all of my talks, and possibly if I really get my act together even my LinkTree as a subpage. Who knows what the future may hold!&lt;/p&gt;
+</content>
+  </entry>
+</feed>

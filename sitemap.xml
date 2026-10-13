@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/blog/firstpost/</loc>
+		<lastmod>2025-01-13</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/blog/SMART-research-objectives/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/blog/iAmRemarkable/</loc>
+		<lastmod>2025-01-29</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/blog/linkedin-premium-for-new-technologists/</loc>
+		<lastmod>2025-01-31</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/about/</loc>
+		<lastmod>2026-10-13</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/blog/</loc>
+		<lastmod>2026-10-13</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/</loc>
+		<lastmod>2026-10-13</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/links/</loc>
+		<lastmod>2026-10-13</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/tags/</loc>
+		<lastmod>2026-10-13</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/talks/</loc>
+		<lastmod>2026-10-13</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://maggiefero.github.io/eleventy-base-blog/feed/feed.xml</loc>
+		<lastmod>2026-10-13</lastmod>
+	</url>
+</urlset>

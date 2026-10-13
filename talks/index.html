@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="L0eInXHvxim4sbRpPrVdk10J1t7tRtzJ8FBP1suld9s">
+		<title>Margaret Fero&#39;s Website</title>
+		<meta name="description" content="I am building a website and I haven&#39;t decided what will be on it yet.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Margaret Fero&#39;s Website">
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e8f4;
+	--color-gray-50: #6a759a;
+	--color-gray-90: #0e1f34;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #0d1e33;
+	--text-color-link-active: #fc36c3;
+	--text-color-link-visited: #17365b;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #fff;
+		--color-gray-50: #e0e8f4;
+		--color-gray-90: #e0e8f4;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #C2C6D6;
+		--text-color-link-active: #fc36c3;
+		--text-color-link-visited: #e0e8f4;
+
+		--background-color: #17365b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 60em;
+}
+ul {
+	text-align: left;
+	list-style-type: circle;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+p strong {
+	color:  #fc36c3;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 3px dotted var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Links page mostly via BenjaminEHowe/11ty-links */
+ul.links {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+ul.links li {
+	text-align: center;
+}
+ul.links li a {
+    display: block;
+    text-decoration: none;
+	padding: 20px;
+	border: solid 0.5em #6a759a;
+	font-weight: bold;
+  }</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/eleventy-base-blog/" class="home-link">Margaret Fero&#39;s Website</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/eleventy-base-blog/">Home</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/blog/">Blog  Posts</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/about/">About</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/links/">Links</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/talks/" aria-current="page">Talks</a></li>
+					<li class="nav-item"><a href="/eleventy-base-blog/feed/feed.xml">RSS Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="talks-and-presentations">Talks &amp; Presentations</h1>
+<p>This page includes a selection of my talks, with recordings and/or slides as available. If you have any questions about these, please reach out on social media or if you see me in person! You can also send an email, but I'm likely to miss it.</p>
+<p>I've sorted the talks by year for convenience, especially because some talks exist in multiple variants for different audiences or updates over time.</p>
+<p><em>Note About Pre-2025 Years</em>: I realized while compiling this page that I have not done a great job keeping track of where I've previously spoken and on what. If something you liked it missing here, please <a href="/eleventy-base-blog/links/">tell me</a>! I'd love to add it.</p>
+<h2 id="2025">2025</h2>
+<p>I still have plenty of availability if you'd like me to speak at your event this year!</p>
+<h3 id="january-9-techtonica-workshop-goal-setting-for-the-new-year">January 9 Techtonica Workshop: Goal Setting for the New Year</h3>
+<p>2025 will bring new challenges of all kinds, and each of you has something unique to offer in tackling problems from systemic to tactical. In this workshop, Margaret Fero, Techtonica's Sponsorships Lead, will take you through a series of exercises to reflect on your values, set goals on three timescales, and enter the year with a clear vision of how you see yourself moving through the year to come.</p>
+<p>By the end of this workshop, you will have written priority-driven lists of goals for the next 90 days, the next year, and the long-term trajectory you see yourself on. By looking ahead and then stepping back, you will contextualize your current objectives within your career goals to ensure that each step you take moves you forward.</p>
+<p>This one doesn't have a public recording or slides currently, because they may make the video available by request in the future as a fundraiser.</p>
+<ul>
+<li><a href="https://www.eventbrite.com/e/workshop-goal-setting-for-the-new-year-tickets-1115380496089">Event Listing</a></li>
+</ul>
+<h2 id="2024">2024</h2>
+<p>In 2024, I gave two very different talks, one of which is an updated version of a talk I presented in rough draft form the first month of the pandemic lockdown and the other of which was brand new.</p>
+<h3 id="toorcamp-humans-love-making-little-books-for-our-friends">ToorCamp: Humans Love Making Little Books For Our Friends</h3>
+<p>Throughout history, humans have loved making little books for our friends. These books have gone by many names, including zines, bibelots, pamphlets, and (certain types of) epistles. In this talk, I'll introduce you to several types of little books people have historically made for their friends in reverse chronological order, as well as the associated movements and defining characteristics of each type of little books.</p>
+<ul>
+<li><a href="https://www.slideshare.net/slideshow/humans-love-making-little-books-for-our-friends-toorcamp-2024/269958316">Slides</a></li>
+</ul>
+<h3 id="north-bay-python-what-not-to-document-and-why">North Bay Python: What Not To Document And Why</h3>
+<p>We’re hopefully all on board with writing documentation for our projects. However, especially with the rise of supply-chain attacks, there are some aspects of our projects that we really shouldn’t document, and should instead remediate as vulnerabilities. If we do document these aspects of a project, it may help someone compromise the project itself or our users. In this talk, you will learn why some aspects of documentation may help attackers more than users, how to recognize those aspects in your own projects, and what to do when you encounter such an issue.</p>
+<ul>
+<li><a href="https://www.slideshare.net/slideshow/humans-love-making-little-books-for-our-friends-toorcamp-2024/269958316">Slides</a></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZlSFth7f8pI?si=LKP32TVO865Y5FDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe> 
+<h2 id="2023">2023</h2>
+<p>In 2023, I spoke more in private contexts or to small groups than publicly.</p>
+<h3 id="bsidessf-backup-plans-for-your-backup-plans-for-your-backup-plans">BsidesSF: Backup Plans for Your Backup Plans for Your Backup Plans</h3>
+<p>Business Continuity Planning (BCP) is important, but a single enactment of the BCP can increase the impact of other concurrent risks. In this talk, we address the risk that one business continuity event will increase the probability or impact of others, with examples from 🌜space 🌛.</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/c_bwlz1OJRw?si=l89vp6DCh9cZquRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+<h2 id="2022-and-earlier">2022 and earlier</h2>
+<p>I'm still working on adding in older talks, so please come back for speaking engagements before 2023!</p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p> <em> Thanks for reading to the end! <3 </em> </p>
+		</footer>
+
+		<!-- This page `/talks/` was built on 2026-10-13T22:49:58.802Z -->
+		<script type="module" src="/eleventy-base-blog/dist/cC8wS6ZjFU.js"></script>
+	</body>
+</html>
