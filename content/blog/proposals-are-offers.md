@@ -15,8 +15,6 @@ Reframing declined submissions as "I offered something they don't need" lets me,
 
 Thinking of previously-declined submissions as offers that didn't meet a need for that particular conference at this particular time also encourages re-submitting an updated version the next time a CFP opens! This lets my talks find their most appropriate home and evolve with the field over time.
 
-```text
-*Note:* This was originally released as a [thread on BlueSky](https://bsky.app/profile/MaggieFero.bsky.social/post/3mfalexbzjs2p), but I've converted it to a blog post by popular demand.
+> *Note:* This was originally released as a [thread on BlueSky](https://bsky.app/profile/MaggieFero.bsky.social/post/3mfalexbzjs2p), but I've converted it to a blog post by popular demand.
 
-*Note on the Note:* Popular demand was really just one person saying he wished this was a blog post. Thanks, Dan! If you also wish I wrote a blog post about something, it really is that easy.
-```
+> *Note on the Note:* Popular demand was really just one person saying he wished this was a blog post. Thanks, Dan! If you also wish I wrote a blog post about something, it really is that easy.
